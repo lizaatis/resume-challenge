@@ -21,7 +21,7 @@ func main() {
 	http.HandleFunc("/education", education)
 	http.HandleFunc("/project", project)
 	http.HandleFunc("/contact", contact)
-	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static"))))
+	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("template/static"))))
 	http.ListenAndServe(":8080", nil)
 }
 

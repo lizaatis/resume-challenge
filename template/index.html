@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html lang=""en>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Personal Portfolio Website</title>
+        <title>Elizabeth Atieno - Cybersecurity Engineer</title>
         <link rel="stylesheet" href="static/style.css">
-
     </head>
     <body>
         <div id="header">
             <div class="container">
                 <nav>
-                    <img src ="static/Images/liz.png" class="liz">
-                    <ul>
+                    <div class="nav-logo">
+                        <img src="static/Images/logo.jpeg" alt="Elizabeth Atieno">
+                    </div>
+
+                    <ul class="nav-links">
                         <li><a href="/">Home</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/skills">Skills</a></li>
@@ -25,10 +27,35 @@
                 </nav>
             </div> 
             <div class="header-text">
-                <p>Cyber Security Engineer</p>
-                <h1>Hi, I'm <br>Elizabeth Atieno</h1>
+                <!--<p class="profession">Cybersecurity Engineer</p>-->
+                <h1>Cybersecurity Engineer<br><span>Elizabeth Atieno</span></h1>
+                <div class="intro-content">
+                    <p class="intro-description">Passionate about protecting digital assets and ensuring cybersecurity excellence through innovative solutions and cutting-edge technology.</p>
+                    <div class="cta-buttons">
+                        <a href="/about" class="btn-primary">Learn More About Me</a>
+                        <a href="/contact" class="btn-secondary">Get In Touch</a>
+                    </div>
+                    
+                    <div class="quick-stats">
+                        <div class="stat-item">
+                            <h3>5+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>150+</h3>
+                            <p>Security Vulnerabilities Fixed</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>30+</h3>
+                            <p>IAM Policies Created</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>98%</h3>
+                            <p>Automation Efficiency</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-       
+        </div>
     </body>
 </html>
