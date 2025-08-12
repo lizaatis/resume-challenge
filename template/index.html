@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="static/style.css">
     </head>
     <body>
+        <!-- Home Section -->
         <div id="header">
             <div class="container">
                 <nav>
@@ -16,13 +17,13 @@
                     </div>
 
                     <ul class="nav-links">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/skills">Skills</a></li>
-                        <li><a href="/experience">Experience</a></li>
-                        <li><a href="/education">Education</a></li>
-                        <li><a href="/project">Project</a></li>
-                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             </div> 
@@ -32,8 +33,8 @@
                 <div class="intro-content">
                     <p class="intro-description">Passionate about protecting digital assets and ensuring cybersecurity excellence through innovative solutions and cutting-edge technology.</p>
                     <div class="cta-buttons">
-                        <a href="/about" class="btn-primary">Learn More About Me</a>
-                        <a href="/contact" class="btn-secondary">Get In Touch</a>
+                        <a href="#about" class="btn-primary">Learn More About Me</a>
+                        <a href="#contact" class="btn-secondary">Get In Touch</a>
                     </div>
                     
                     <div class="quick-stats">
@@ -57,5 +58,429 @@
                 </div>
             </div>
         </div>
+
+        <!-- About Section -->
+        <div id="about" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="static/Images/logo.jpeg" alt="Elizabeth Atieno">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>A visionary and motivated Cybersecurity Analyst committed to detecting and protecting individuals and organizations from cyberattacks through innovative techniques and programming skills. My education and prior work experience equip me to contribute effectively by bringing valuable solutions within the cybersecurity industry.</p>
+                        
+                        <p>With a strong foundation in cybersecurity principles and practices, I am dedicated to staying ahead of emerging threats and vulnerabilities. My goal is to leverage my skills to enhance the security posture of organizations and ensure the safety of their digital assets.</p>
+                        
+                        <p>As a proactive learner, I continuously seek opportunities to expand my knowledge and expertise in the ever-evolving field of cybersecurity. I am passionate about making a positive impact in the industry.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('about-skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('about-experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('about-education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="about-skills">
+                            <ul>
+                                <li><span>Cybersecurity</span><br>Threat Detection & Analysis, Incident Response</li>
+                                <li><span>Programming</span><br>Python, Go, JavaScript, HTML/CSS</li>
+                                <li><span>Web Development</span><br>Full-stack Development, Backend Systems</li>
+                                <li><span>Data Analysis</span><br>Security Analytics & Reporting</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="about-experience">
+                            <ul>
+                                <li><span>Cybersecurity Analyst</span><br>Threat detection, vulnerability assessment, and incident response</li>
+                                <li><span>Security Research</span><br>Analyzing emerging threats and security trends</li>
+                                <li><span>Web Development</span><br>Building secure web applications and portfolio projects</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="about-education">
+                            <ul>
+                                <li><span>Cybersecurity Certification</span><br>Advanced cybersecurity principles and practices</li>
+                                <li><span>Programming Courses</span><br>Multiple programming languages and frameworks</li>
+                                <li><span>Continuous Learning</span><br>Staying updated with latest security trends and technologies</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div id="skills" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="static/Images/Cybersec.jpg" alt="Skills">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">My Skills</h1>
+                        <p>Technical expertise and professional capabilities developed through years of experience in cybersecurity, programming, and technology innovation. These skills enable me to deliver comprehensive security solutions and drive organizational success.</p>
+                        
+                        <p>From advanced threat detection to full-stack development, my diverse skill set allows me to approach cybersecurity challenges from multiple angles and implement robust, scalable solutions.</p>
+                        
+                        <p>I continuously expand my technical arsenal to stay ahead of emerging threats and technological advancements in the rapidly evolving cybersecurity landscape.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('technical')">Technical Skills</p>
+                            <p class="tab-links" onclick="opentab('programming')">Coding Skills</p>
+                            <p class="tab-links" onclick="opentab('tools')">Tools & Platforms</p>
+                            <p class="tab-links" onclick="opentab('soft')">Soft Skills</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="technical">
+                            <ul>
+                                <li><span>Network Security</span><br>Advanced firewall configuration, network monitoring, and intrusion detection systems</li>
+                                <li><span>Cloud Security</span><br>AWS, GCP, Microsoft Azure - Multi-cloud security architecture and implementation</li>
+                                <li><span>Threat Analysis & Detection</span><br>Advanced threat hunting, behavioral analysis, and real-time threat identification</li>
+                                <li><span>Vulnerability Assessment</span><br>Comprehensive security audits, penetration testing, and vulnerability remediation</li>
+                                <li><span>Identity & Access Management (IAM)</span><br>RBAC implementation, policy development, and access control systems</li>
+                                <li><span>Incident Response & Detection</span><br>Security incident handling, forensic analysis, and automated response development</li>
+                                <li><span>Penetration Testing</span><br>Ethical hacking, security assessments, and vulnerability exploitation testing</li>
+                                <li><span>SIEM Systems</span><br>Security Information and Event Management - Log analysis and threat correlation</li>
+                                <li><span>Cryptography & Risk Management</span><br>Encryption protocols, digital signatures, and comprehensive risk assessment frameworks</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="programming">
+                            <ul>
+                                <li><span>Python</span><br>Security automation, data analysis, backend development, and scripting solutions</li>
+                                <li><span>Java</span><br>Enterprise-grade applications, security frameworks, and robust system development</li>
+                                <li><span>C++</span><br>System-level programming, performance optimization, and low-level security tools</li>
+                                <li><span>JavaScript</span><br>Frontend development, web applications, and interactive security dashboards</li>
+                                <li><span>HTML/CSS</span><br>Modern web design, responsive interfaces, and professional web presence</li>
+                                <li><span>SQL</span><br>Database management, security queries, and data analysis for threat intelligence</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="tools">
+                            <ul>
+                                <li><span>Infrastructure as Code</span><br>Terraform - Automated infrastructure deployment and configuration management</li>
+                                <li><span>Container Orchestration</span><br>Kubernetes - Container security, cluster management, and microservices architecture</li>
+                                <li><span>Message Streaming</span><br>Apache Kafka - Real-time data processing and security event streaming</li>
+                                <li><span>Containerization</span><br>Docker - Secure container deployment and application isolation</li>
+                                <li><span>Microsoft 365 Suite</span><br>Excel, Word, PowerPoint - Advanced data analysis and professional documentation</li>
+                                <li><span>Version Control</span><br>GitHub/Git CLI - Collaborative development and secure code management</li>
+                                <li><span>Build Automation</span><br>Make - Automated build processes and development workflow optimization</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="soft">
+                            <ul>
+                                <li><span>Leadership</span><br>Team management, project coordination, and strategic decision-making in cybersecurity initiatives</li>
+                                <li><span>Problem Solving</span><br>Analytical thinking, root cause analysis, and innovative solution development for complex security challenges</li>
+                                <li><span>Collaboration</span><br>Cross-functional teamwork, stakeholder engagement, and effective partnership building</li>
+                                <li><span>Communication</span><br>Technical writing, presentation skills, and ability to translate complex security concepts for diverse audiences</li>
+                                <li><span>Adaptability</span><br>Rapid learning, flexibility in evolving threat landscapes, and quick adaptation to new technologies</li>
+                                <li><span>Critical Thinking</span><br>Strategic analysis, risk assessment, and evidence-based decision making in high-pressure situations</li>
+                                <li><span>Attention to Detail</span><br>Meticulous security analysis, thorough documentation, and precision in vulnerability identification</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience Section -->
+        <div id="experience" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="static/Images/IT.jpg" alt="Professional Experience">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">Professional Experience</h1>
+                        <p>My cybersecurity journey spans multiple industries and roles, from healthcare security to government infrastructure protection. Each position has strengthened my expertise in threat detection, vulnerability assessment, and security automation.</p>
+                        
+                        <p>Through hands-on experience with cutting-edge security tools and technologies, I've developed a comprehensive understanding of modern cybersecurity challenges and solutions.</p>
+                        
+                        <p>My diverse background enables me to approach security from multiple perspectives, ensuring robust protection strategies for any organization.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('current')">Current Role</p>
+                            <p class="tab-links" onclick="opentab('previous')">Previous Roles</p>
+                            <p class="tab-links" onclick="opentab('leadership')">Leadership</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="current">
+                            <ul>
+                                <li><span>Cybersecurity Engineer - Reddit</span><br>March 2024 - Present<br>Automates cloud tasks using Bash and Python scripts, cutting manual workload by 98%. Develops 30+ IAM roles using Terraform, reducing unauthorized access by 45%.</li>
+                                <li><span>Healthcare Security Specialist</span><br>August 2024 - Present<br>Monitors 60 residents, reducing drug overdose incidents by 37%. Manages HIPAA-compliant systems with 99% call response rate.</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="previous">
+                            <ul>
+                                <li><span>Cybersecurity Analyst - CAK</span><br>August 2023 - August 2024<br>Conducted vulnerability assessments, identifying 150+ security vulnerabilities. Implemented SIEM solutions reducing incident response time by 30%.</li>
+                                <li><span>IT Support Specialist - KRA</span><br>January 2021 - December 2021<br>Resolved 3,000+ tickets monthly, improving IT response time by 95%. Maintained security updates decreasing vulnerability exposure by 33%.</li>
+                                <li><span>QA Specialist - Ventec Life Systems</span><br>May 2019 - August 2019<br>Maintained ISO compliance on 1,300+ monthly medical devices. Collaborated with 70-member team on critical projects.</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="leadership">
+                            <ul>
+                                <li><span>Project Lead - Enactus JOOUST</span><br>2017 - 2020<br>Led entrepreneurial projects serving low-income clients, enhancing community welfare through innovative solutions.</li>
+                                <li><span>President - UNESCO Student Forum</span><br>2017 - 2020<br>Organized educational and cultural programs, fostering international understanding and cooperation.</li>
+                                <li><span>Team Leadership</span><br>Ongoing<br>Experience leading cross-functional teams, managing security projects, and mentoring junior professionals.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education Section -->
+        <div id="education" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="static/Images/Data Analysis.jpg" alt="Education">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">Education & Certifications</h1>
+                        <p>My educational journey combines formal academic training with intensive professional development programs. This foundation provides the theoretical knowledge and practical skills essential for cybersecurity excellence.</p>
+                        
+                        <p>Through rigorous coursework and hands-on training, I've developed expertise in computer security, digital forensics, and modern cybersecurity practices.</p>
+                        
+                        <p>Continuous learning remains a priority as I pursue advanced certifications and stay current with evolving security technologies and methodologies.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('formal')">Formal Education</p>
+                            <p class="tab-links" onclick="opentab('professional-training')">Professional Training</p>
+                            <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="formal">
+                            <ul>
+                                <li><span>Bachelor of Science - Computer Science</span><br>Computer Security and Forensics (2016-2020)<br>Comprehensive program covering operating system security, access control, software development, and vulnerability analysis.</li>
+                                <li><span>Core Coursework</span><br>Database Management (SQL), Risk Management, Software Development (Java, PHP, HTML), Network Security</li>
+                                <li><span>Academic Achievements</span><br>Strong foundation in cybersecurity principles, hands-on laboratory experience, collaborative project work</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="professional-training">
+                            <ul>
+                                <li><span>Cybersecurity Bootcamp</span><br>Year Up United / Seattle Central College (2024)<br>Intensive 6-month program with 250 corporate partners, featuring practical labs and real-world simulations.</li>
+                                <li><span>Technical Training</span><br>Hands-on experience with Wireshark, Metasploit, Nessus<br>Network security, ethical hacking, incident response, cloud security</li>
+                                <li><span>Professional Development</span><br>Communication skills, business acumen, corporate partnership internship program</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="certifications">
+                            <ul>
+                                <li><span>CompTIA Security+</span><br>2024<br>Industry-standard certification covering network security, compliance, threats and vulnerabilities</li>
+                                <li><span>Google Cybersecurity Certificate</span><br>2023<br>Comprehensive program covering security frameworks, incident response, and security tools</li>
+                                <li><span>Introduction to AWS</span><br>2023<br>Cloud security fundamentals and AWS security services implementation</li>
+                                <li><span>Leadership Skills Certification</span><br>2023<br>Professional development in team leadership and project management</li>
+                                <li><span>Communication Skills Certification</span><br>2023<br>Advanced technical communication and presentation skills</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects Section -->
+        <div id="projects" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="static/Images/Project.jpg" alt="Projects">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">My Projects</h1>
+                        <p>A comprehensive portfolio showcasing my expertise in cybersecurity, programming, and technology innovation. These projects demonstrate practical application of security principles and technical skills.</p>
+                        
+                        <p>From SIEM implementations to cloud infrastructure, each project reflects my commitment to delivering robust, scalable security solutions.</p>
+                        
+                        <p>As a <a href="https://www.youtube.com/@lizatis9381" target="_blank" style="color: #ff6b6b;">YouTuber</a>, I also share knowledge and insights with the cybersecurity community.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('cybersecurity-projects')">Cybersecurity</p>
+                            <p class="tab-links" onclick="opentab('programming-projects')">Programming</p>
+                            <p class="tab-links" onclick="opentab('networking-projects')">Networking</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="cybersecurity-projects">
+                            <ul>
+                                <li><span>Microsoft Sentinel SIEM</span><br>Comprehensive SIEM configuration for threat detection and incident response<br><a href="https://www.canva.com/design/DAGdE6YuAew/LV1L4WqGaVjAIDg2tm25nA/edit" target="_blank" style="color: #feca57;">View Project</a></li>
+                                <li><span>AWS Database Server</span><br>Secure database implementation on AWS with security best practices<br><a href="https://github.com/lizaatis/Database-Server-on-AWS" target="_blank" style="color: #feca57;">GitHub Repository</a></li>
+                                <li><span>Professional Certifications</span><br>CompTIA Security+, Google Cybersecurity Certificate, AWS credentials<br><a href="https://github.com/lizaatis/Certifications" target="_blank" style="color: #feca57;">View Certifications</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="programming-projects">
+                            <ul>
+                                <li><span>Python Data Fetching</span><br>Internet data fetching application with error handling and validation<br><a href="https://github.com/lizaatis/Fetching-Internet-Data-using-Python" target="_blank" style="color: #feca57;">GitHub Repository</a></li>
+                                <li><span>IT Help Desk Labs</span><br>Comprehensive lab projects from CNS 6-month course<br><a href="https://github.com/lizaatis/Lab_Projects_CNS_course" target="_blank" style="color: #feca57;">GitHub Repository</a></li>
+                                <li><span>Excel Functions Lab</span><br>Advanced Excel data analysis with pivot tables and visualizations<br><a href="https://github.com/lizaatis/Excel-Functions-Lab/tree/main" target="_blank" style="color: #feca57;">GitHub Repository</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="networking-projects">
+                            <ul>
+                                <li><span>Cisco Packet Tracer</span><br>Network simulation exploring physical and logical network modes<br><a href="https://github.com/lizaatis/exploring-physical-and-logical-mode-of-network-on-Cisco-Packet-Tracer" target="_blank" style="color: #feca57;">GitHub Repository</a></li>
+                                <li><span>Network Security Implementation</span><br>Practical network security configurations and monitoring solutions</li>
+                                <li><span>Cloud Infrastructure</span><br>Multi-cloud security implementations across AWS, GCP, and Azure platforms</li>
+                            </ul>
+                        </div>
+
+                        <div style="margin-top: 40px; text-align: center;">
+                            <h3 style="color: #ff6b6b; margin-bottom: 20px;">Connect With Me</h3>
+                            <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                                <a href="https://github.com/elizabethatieno" target="_blank" style="color: #feca57; text-decoration: none; padding: 10px 20px; border: 1px solid #feca57; border-radius: 20px; transition: all 0.3s ease;">GitHub</a>
+                                <a href="https://www.linkedin.com/in/elizabeth-atieno-202b49173/" target="_blank" style="color: #feca57; text-decoration: none; padding: 10px 20px; border: 1px solid #feca57; border-radius: 20px; transition: all 0.3s ease;">LinkedIn</a>
+                                <a href="https://www.youtube.com/@lizatis9381" target="_blank" style="color: #feca57; text-decoration: none; padding: 10px 20px; border: 1px solid #feca57; border-radius: 20px; transition: all 0.3s ease;">YouTube</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div id="contact" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="static/Images/A.jpg" alt="Contact Elizabeth Atieno">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">Get In Touch</h1>
+                        <p>Ready to collaborate on cybersecurity initiatives or discuss innovative security solutions? I'm always open to connecting with fellow professionals, potential employers, and organizations seeking robust cybersecurity expertise.</p>
+                        
+                        <p>Whether you're interested in my technical skills, professional experience, or simply want to network within the cybersecurity community, I'd love to hear from you.</p>
+                        
+                        <p>Let's build a more secure digital future together through collaboration and knowledge sharing.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('contact-info')">Contact Info</p>
+                            <p class="tab-links" onclick="opentab('message')">Send Message</p>
+                            <p class="tab-links" onclick="opentab('social')">Social Links</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="contact-info">
+                            <ul>
+                                <li><span>📧 Email</span><br>elizabeth.atieno@example.com<br>Professional inquiries and collaboration opportunities</li>
+                                <li><span>📱 Phone</span><br>+1 (555) 123-4567<br>Available for urgent cybersecurity consultations</li>
+                                <li><span>📍 Location</span><br>Seattle, WA, USA<br>Open to remote and hybrid opportunities</li>
+                                <li><span>🎯 Specialties</span><br>Cybersecurity Engineering, Cloud Security, IAM<br>Available for contract and full-time positions</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="message">
+                            <div style="background: rgba(255, 255, 255, 0.1); padding: 30px; border-radius: 15px; margin-top: 20px;">
+                                <form style="display: flex; flex-direction: column; gap: 20px;">
+                                    <input type="text" placeholder="Your Name" required style="padding: 15px; border: 2px solid rgba(255, 255, 255, 0.2); border-radius: 10px; background: rgba(255, 255, 255, 0.1); color: #fff; font-size: 16px;">
+                                    <input type="email" placeholder="Your Email" required style="padding: 15px; border: 2px solid rgba(255, 255, 255, 0.2); border-radius: 10px; background: rgba(255, 255, 255, 0.1); color: #fff; font-size: 16px;">
+                                    <input type="text" placeholder="Subject" required style="padding: 15px; border: 2px solid rgba(255, 255, 255, 0.2); border-radius: 10px; background: rgba(255, 255, 255, 0.1); color: #fff; font-size: 16px;">
+                                    <textarea placeholder="Your Message" rows="5" required style="padding: 15px; border: 2px solid rgba(255, 255, 255, 0.2); border-radius: 10px; background: rgba(255, 255, 255, 0.1); color: #fff; font-size: 16px; resize: vertical;"></textarea>
+                                    <button type="submit" style="padding: 15px 30px; background: linear-gradient(45deg, #ff6b6b, #feca57); color: white; border: none; border-radius: 25px; font-size: 18px; font-weight: 600; cursor: pointer;">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="tab-contents" id="social">
+                            <ul>
+                                <li><span>🎥 YouTube</span><br><a href="https://www.youtube.com/@lizatis9381" target="_blank" style="color: #feca57;">@lizatis9381</a><br>Cybersecurity tutorials and insights</li>
+                                <li><span>💼 LinkedIn</span><br><a href="https://www.linkedin.com/in/elizabeth-atieno-202b49173/" target="_blank" style="color: #feca57;">Elizabeth Atieno</a><br>Professional networking and career updates</li>
+                                <li><span>💻 GitHub</span><br><a href="https://github.com/elizabethatieno" target="_blank" style="color: #feca57;">elizabethatieno</a><br>Open source projects and code repositories</li>
+                                <li><span>🐦 Twitter</span><br>@elizabethatieno<br>Cybersecurity news and industry discussions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section Navigation Indicators -->
+        <div class="section-indicator">
+            <div class="section-dot active" data-section="Home" onclick="scrollToSection('header')"></div>
+            <div class="section-dot" data-section="About" onclick="scrollToSection('about')"></div>
+            <div class="section-dot" data-section="Skills" onclick="scrollToSection('skills')"></div>
+            <div class="section-dot" data-section="Experience" onclick="scrollToSection('experience')"></div>
+            <div class="section-dot" data-section="Education" onclick="scrollToSection('education')"></div>
+            <div class="section-dot" data-section="Projects" onclick="scrollToSection('projects')"></div>
+            <div class="section-dot" data-section="Contact" onclick="scrollToSection('contact')"></div>
+        </div>
+
+        <script>
+            // Tab functionality
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for(tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.target.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+            // Dashboard Navigation Functionality
+            function scrollToSection(sectionId) {
+                document.getElementById(sectionId).scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+
+            // Update active navigation and section indicators on scroll
+            function updateActiveNavigation() {
+                const sections = ['header', 'about', 'skills', 'experience', 'education', 'projects', 'contact'];
+                const navLinks = document.querySelectorAll('.nav-links a');
+                const sectionDots = document.querySelectorAll('.section-dot');
+                
+                let currentSection = '';
+                
+                sections.forEach(sectionId => {
+                    const section = document.getElementById(sectionId);
+                    const rect = section.getBoundingClientRect();
+                    
+                    if (rect.top <= 100 && rect.bottom >= 100) {
+                        currentSection = sectionId;
+                    }
+                });
+                
+                // Update navigation links
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${currentSection}`) {
+                        link.classList.add('active');
+                    }
+                });
+                
+                // Update section dots
+                sectionDots.forEach((dot, index) => {
+                    dot.classList.remove('active');
+                    if (sections[index] === currentSection) {
+                        dot.classList.add('active');
+                    }
+                });
+            }
+
+            // Add scroll event listener
+            window.addEventListener('scroll', updateActiveNavigation);
+            
+            // Add click handlers for navigation links
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    scrollToSection(targetId);
+                });
+            });
+
+            // Initialize on page load
+            document.addEventListener('DOMContentLoaded', function() {
+                updateActiveNavigation();
+            });
+        </script>
     </body>
 </html>
